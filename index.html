@@ -11,32 +11,32 @@
                      
                      
             <div class="wrap">
-                   <form name="form">
-                     <input type="text"  name="total" class="answers">
-        <br> 
-                     <input type ="button" class="clear" value=" AC " id="clear">       
-                     <input type="button" class="divide" value=" / " > 
-                     <input type="button" class="multi" value=" * ">
-                     <input type="button" class="sub"value=" - ">
-        <br>    
-                     <input type="button" class= "seven" value="7">
-                     <input type="button" value="8">
-                     <input type="button" value="9">
-                     <input type="button" name="add" value="+" id="plus">
-        <br> 
-                     <input type="button" value="4">
-                     <input type="button" value="5">
-                     <input type="button" value="6">
-        <br> 
-                     <input type="button" value="1">
-                     <input type="button" value="2">
-                     <input type="button" value="3">
-                     <input type="button" class="equal" value="=" id="equal">
-        <br> 
-                     <input type="button" class="delete" value="Del" id="delete">
-                     <input type="button" value="0">
-                     <input type="button" value=".">
-        <br>
+                    <form name="form">
+                     <input type="text"  name="total" class="answers" id="total">
+                    <br> 
+                     <input type ="button" name="clear" value=" AC " id="clear" onclick="clear1()">       
+                     <input type="button" name="divide"  value=" / " onclick="insert('/')"  > 
+                     <input type="button" name="multi" value=" * " onclick="insert('*')">
+                     <input type="button" name="minus" value=" - " onclick="insert('-')">
+                     <br>    
+                     <input type="button" name="seven" value="7" onclick="insert(7)" >
+                     <input type="button" name ="eight" value="8" onclick="insert(8)">
+                     <input type="button" name= "nine" value="9" onclick="insert(9)">
+                     <input type="button" name="add" value="+" id="plus" onclick="insert ('+')" >
+                    <br> 
+                     <input type="button" name="four" value="4" onclick="insert(4)">
+                     <input type="button" name="five" value="5" onclick="insert(5)">
+                     <input type="button" name="six" value="6" onclick="insert(6)">
+                     <br> 
+                     <input type="button" name="one" value="1" onclick="insert(1)">
+                     <input type="button" name="two" value="2" onclick="insert(2)">
+                     <input type="button" name="three" value="3" onclick="insert(3)">
+                     <input type="button" name="equal" value="=" id="equal" onclick="equal1()">
+                     <br> 
+                     <input type="button" name="delete" value="Del" id="delete" onclick="del()">
+                     <input type="button" name="zero" value="0" onclick="insert(0)">
+                     <input type="button" name="dot" value="."onclick="insert('.')">
+                     <br>
            </form>
         </div>
     </body>
